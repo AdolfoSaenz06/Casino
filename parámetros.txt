@@ -1,0 +1,10 @@
+paleta de colores.
+    Oscuro: #262B1B
+    Verde: #5AED68
+    Verde distinto: #5AED78
+    Verde oscuro: #50A451
+    Verde turquesa: #5AEDAB
+
+Pasos: 
+    installar npm - "npm install"
+    iniciar npm - "npm start"

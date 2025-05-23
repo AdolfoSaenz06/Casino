@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link rel="stylesheet" href="css/css.css">
+        <script src="js/credits.js"></script>
+        <script src="js/header.js"></script>
+        <title>Casino Adolf 365</title>
+    </head>
+    <body>
+        <section class="h-[80px] bg-[#262B1B] px-5">
+            <div class="flex items-center justify-between h-[80px]">
+                <div class="flex items-center space-x-4">
+                    <img src="resources/img/logo.jpg" alt="Logo" class="w-[50px] h-[50px] rounded-full">
+                    <span class="text-[16px] text-[#5AED68] font-bold">Adolf 365</span>
+                </div>
+                <div class="flex items-center space-x-8 md:mr-5">
+                    <div class="bg-[#2E5A2F] rounded-[15px] p-2 flex space-x-3 items-center">
+                        <p class="text-white">Créditos:</p>
+                        <a href="views/credits.html" class="text-[#5AED68]" id="resultado"></a>
+                    </div>
+                    <nav class="max-sm:hidden flex space-x-15 font-medium items-center">
+                        <a href="#" class="text-[#5AED68]">Home</a>
+                        <a href="views/games.html" class="text-[#5AED68]">Juegos</a>
+                        <a href="views/credits.html" class="text-[#5AED68]">Añadir Creditos</a>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[url(resources/gifs/poker.gif)] bg-cover px-10 py-5 h-responsive items-left">
+            <div class="h-responsive mt-13 mb-13">
+                <p class="md:w-150 text-8xl text-[#5AED68] font-bold">Donde los sueños se hacen realidad</p>
+                <p class="text-[30px] md:w-180 text-[#5AED78] mt-5">A que esperas, ponte a jugar en nuestro grandioso casino Adolf 365, donde ganarás mucho y lo pasarás en grande. ¿A que esperas para comenzar?</p>
+                <a href="views/credits.html" class="bg-[#5AED78] hover:bg-[#4fd168] transform hover:scale-105 transition duration-300 rounded-[20px] font-bold text-[25px] p-4 mt-7 inline-flex gap-3 items-center">
+                    Obtener Créditos
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/>
+                        <path d="M7 15h0M2 9.5h20"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        <section class="h-responsive pt-11 pb-1 bg-[#262B1B] grid-cols-1">
+            <div class="mx-10 mb-10 pl-10 text-[50px] text-[#5AED68] font-bold">
+                <p>Juegos:</p>
+            </div>
+            <div class="mx-10 mb-10 pl-10 text-[#5AED78] bg-[#4D5738] md:flex gap-3 md:items-center h-responsive rounded-[20px]">
+                <div class="m-10 ml-1 h-40 w-60 flex-shrink-0">
+                    <img src="resources/img/plinko.png" alt="Plinko" class="h-full w-full object-contain">
+                </div>
+                <div class="max-md:pb-8">
+                    <a href="views/plinko.html" class="text-[35px] font-bold">
+                        Plinko:
+                    </a>
+                    <p class="text-[20px] font-semibold mr-10">
+                        Sumérgete en la emoción de Plinko, el clásico juego de azar reinventado para tu casino online favorito. Deja caer la ficha desde la parte superior y observa cómo rebota entre los clavos mientras desciende hacia las casillas con premios variados.
+                    </p>
+                    <a href="views/plinko.html" class="bg-[#5AED78] hover:bg-[#4fd168] transform hover:scale-105 transition duration-300 rounded-[20px] font-bold text-[25px] text-white p-4 mt-3 mb-4 inline-flex gap-3 items-center">
+                        Jugar ya
+                    </a>
+                </div>
+            </div>
+            <div class="mx-10 mb-10 pl-10 text-[#5AED78] bg-[#4D5738] md:flex gap-3 md:items-center h-responsive rounded-[20px]">
+                <div class="m-10 ml-1 h-40 w-60 flex-shrink-0">
+                    <img src="resources/img/mines.png" alt="Mines" class="h-full w-full object-contain">
+                </div>
+                <div class="max-md:pb-8">
+                    <a href="views/mines.html" class="text-[35px] font-bold">
+                        Minas:
+                    </p>
+                    <p class="text-[20px] font-semibold">
+                        Atrévete a poner a prueba tu intuición en Mines, un emocionante juego de campo minado donde cada decisión puede hacer crecer tu premio… o hacerlo explotar. Elige casillas en un tablero oculto: si encuentras un diamante, tu apuesta se multiplica y puedes seguir jugando para aumentar tus ganancias. Pero cuidado, si pisas una mina, ¡lo pierdes todo!
+                    </p>
+                    <a href="views/mines.html" class="bg-[#5AED78] hover:bg-[#4fd168] transform hover:scale-105 transition duration-300 rounded-[20px] font-bold text-[25px] text-white p-4 mt-3 mb-4 inline-flex gap-3 items-center">
+                        Jugar ya
+                    </a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

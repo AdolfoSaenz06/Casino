@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <script src="../js/credits.js"></script>
+        <script src="../js/header.js"></script>
+        <script src="../js/plinko.js"></script>
+        <title>Plinko Adolf 365</title>
+    </head>
+    <body>
+        <section id="header-placeholder" class="h-[80px] bg-[#262B1B] px-5"></section>
+        <section class="bg-[#262B1B] min-h-screen flex items-center justify-center gap-35">
+            <div class="flex flex-col items-center justify-center gap-5">
+                <h1 class="text-[#5AED68] font-bold text-[35px]">🎯 Plinko 365 🎯</h1>
+                <canvas id="gameCanvas" class="border-[2px] border-[#5AED68]" width="800" height="700"></canvas>
+            </div>
+            <div class="flex flex-col items-center justify-center gap-5">
+                <input type="number" id="pointsInput" placeholder="Puntos a apostar" class="p-2 rounded text-white text-[20px] border-white border-1" />
+                <button id="drop" class="p-5 bg-[#5AED68] hover:bg-[#4fd168] text-white text-[25px] font-bold rounded-[20px]">Soltar bola</button>
+                <p id="resultText" class="text-white text-center text-[20px] mt-2"></p>
+            </div>
+        </section>
+    </body>
+</html>
